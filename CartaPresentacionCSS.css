@@ -63,3 +63,8 @@ li p b{
 	display: none;
 }
 
+
+li:hover a{
+	color: red;
+	font-size: 130%;
+}
