@@ -67,4 +67,5 @@ li p b{
 li:hover a{
 	color: red;
 	font-size: 130%;
+	transform: 0.5s;
 }
