@@ -22,11 +22,14 @@ b{
 }
 
 p a{
-    background: none;
-    position: absolute;
+    background-color: gray;
+    opacity: 0.8;
+    z-index: 0;
+    position: fixed;
     right: 2%;
     bottom: 2%;
 }
+
 
 a:hover{
     font-size: 1.2rem;
