@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-decoration: none;
+    background-image: url(../img/abstract-luxury-dark-hexagons-black-background-futuristic-technology-concept-3d-vector-technological-hexagonal-blocks-dark-gray-abstract-background-3d-vector-dark-background-vector-illustra.jpg);
+    background-size: cover;
+	color: white;
+    font-size: 30px;
+}
+
+p {
+    display: inline;
+    background: none;
+}
+b{
+    background: none;
+}
+
+p a{
+    background: none;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+a:hover{
+    font-size: 1.2rem;
+    color: rgb(117, 245, 26);
+    transition: 0.5s;
+}
