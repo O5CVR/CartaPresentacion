@@ -170,7 +170,7 @@ footer p{
   }
 
   div p a:hover{
-	color: rgb(117, 245, 26);
+	color: yellowgreen;
 	font-size: 1.5rem;
 	transition: 0.5s;
   }
