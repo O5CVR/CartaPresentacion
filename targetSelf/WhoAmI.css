@@ -19,6 +19,7 @@ p {
 }
 b{
     background: none;
+    color: chartreuse;
 }
 
 p a{
@@ -33,5 +34,35 @@ p a{
 a:hover{
     font-size: 1.2rem;
     color: rgb(117, 245, 26);
+    transition: 0.5s;
+}
+
+form{
+    background: none;
+    box-sizing: border-box;
+    padding: 3%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background: none;
+    cursor: pointer;
+    padding: 0; 
+    border: none;
+}
+ form button a img {
+    background: none;
+    width: 30%;
+    height: auto;
+    background-size: cover;
+}
+form button a{
+    background: none;
+}
+button a:hover{
+    font-size: 1.2rem;
+    color: red;
     transition: 0.5s;
 }
