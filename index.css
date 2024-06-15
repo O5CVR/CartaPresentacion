@@ -185,6 +185,23 @@ footer p{
 	transition: 0.3s;
   }
 
+.github{
+position: absolute;
+top: 3.5%;
+right: 2%;
+padding: 0.2%;
+border: white solid 1px;
+background-color: black;
+border-radius: 3px;
+box-shadow: 3px 2px 3px 2px rgba(255, 255, 255, 0.5);
 
+}
+
+.github:hover{
+	transform: scale(1.05);
+	z-index: 1;
+	transition: 0.3s;
+	background-color: yellowgreen;
+}
 
   
