@@ -44,12 +44,14 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    padding-top: 1rem;
 }
 
 h1{
     background: none;
     opacity: 0.9;
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    z-index: 10;
 }
 
 @media (max-width: 900px) {
@@ -158,6 +160,7 @@ footer p{
     background: none;
     opacity: 0.9;
     font-size: 30px;
+    z-index: 10;
 }
 @media (max-width: 700px) {
     footer p{
